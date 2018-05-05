@@ -46,3 +46,5 @@ group :development do
 end
 
 gem 'actioncable', github: 'rails/actioncable', branch: 'archive'
+
+gem 'puma'

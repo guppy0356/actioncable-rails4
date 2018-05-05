@@ -1,7 +1,7 @@
 App.book = App.cable.subscriptions.create('BookChannel', {
   connected: function() {},
   disconnected: function() {},
-  received: function(data) {
-    console.log(data)
+  received: function(book) {
+    return $('#book-index').append('<p><span style="font-weight:bold">' + book['title'] + '</span> is ' + book['price'] + 'yen</p>');
   }
 });

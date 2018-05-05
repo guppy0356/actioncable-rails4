@@ -49,3 +49,6 @@ node_modules/
 
 # Ignore redis binary dump (dump.rdb) files
 *.rdb
+
+# Ignore redis.conf
+redis.conf

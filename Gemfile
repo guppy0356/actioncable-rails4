@@ -45,3 +45,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'actioncable', github: 'rails/actioncable', branch: 'archive'

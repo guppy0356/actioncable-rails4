@@ -11,7 +11,7 @@ $ bin/rails server
 ```
 
 # How to enjoy
-This application shows you how to notify server side event. When you create new book record in this app, this event will notify your browser.
+This application shows you how to notify server side event. When you create new book record in this app, this event will be notified.
 
 An easy way to enjoy this application, just run below command in your rails console.
 
